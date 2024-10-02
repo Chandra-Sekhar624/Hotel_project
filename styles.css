@@ -1,0 +1,31 @@
+@charset "utf-8";
+/* CSS Document */
+
+.home-btn {
+  text-decoration: none;
+  padding: 10px 20px;
+  color: white;
+  background-color: #4CAF50;
+  border-radius: 5px;
+  font-size: 18px;
+  transition: background-color 0.3s;
+}
+
+.home-btn:hover {
+  background-color: #45a049;
+}
+
+.submit{
+	text-decoration: none;
+ 
+  color: white;
+  background-color: #4CAF50;
+  border-radius: 13px;
+  font-size: 18px;
+  transition: background-color 0.3s;
+	
+	}
+	
+.submit:hover{
+	background-color:#F521BF;
+	}
