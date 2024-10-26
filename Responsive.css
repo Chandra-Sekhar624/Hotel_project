@@ -3,27 +3,203 @@
 
 
 @media (max-width: 768px) {
-    .menu-bar {
-        flex-direction: column;
-    }
-    .menu, .social-media {
-        flex-direction: column;
-    }
-}
+.logo img {
+    height: 40px;
+    margin-right: 5px;
+		}
+.company-info{
+    width:20%;
+		}
 
 
-.title {
-	font-family: Georgia, "Times New Roman", Times, serif;
-	font-size: 18px;
-	line-height: 30px;
-	weight:100%;
-	height:350px;
-  background-color: #990000; color: #FFFF66;
+.company-info h1 {
+    margin-bottom: -51px;
+    font-size: 13px;
+		}
+		
+.company-info .tagline {
+    font-size:12px;
+		}
+		
+
+.company-info p {
+	width:353px;
+	
+    padding-left: 114px;
+	
+		}
+
+	
+    .menu ul {
+        display: none;
+        flex-direction: column;
+        background-color: #333;
+        position: absolute;
+        top: 58px;
+        left: 0;
+        width: 100%;
+        z-index: 100;
+    }
+
+    .menu ul.active {
+        display: flex;
+    }
+
+    .menu ul li {
+        margin: 0;
+        text-align: center;
+        width: 100%;
+    }
+
+    .menu ul li a {
+        padding: 15px;
+        font-size: 18px;
+    }
+
+    .social-media {
+        width: 22%;
+    }
+    .menu-icon {
+    display: block;
+	margin-right:172px;
+	margin-left: 2px;
+    cursor: pointer;
+
+    }
+	
+.container1 {
+  display: grid;
+    place-items: center;
+	height:auto;
+ 
 }
-.slider {
-    position: relative;
-    overflow: hidden;
-    width: 100%;
-    height: 500px;
-	 
+	
+.box {
+  height:230px;
 }
+.testimonial-slider {
+  width: 92%;
+  }
+  
+  
+.qa-question {
+    width: 98%;
+}
+
+.container10{
+	display: grid;
+	grid-template-columns: 1fr;
+    place-items: center;
+	
+	}
+.image-container{
+	width: 75%;
+	}
+	
+.call {
+    top: 81%;
+    left: 68%;
+ 	width: 21%;
+}
+
+.phone-link {
+    font-size:0.7rem; 
+    }
+
+}
+
+@media (min-width: 420px)and (max-width: 767px){
+.menu-bar .logo{
+		display:none;
+		
+		}
+.social-media {
+        display:none;
+    }
+.menu-icon {
+    display: flex;
+	justify-content: flex-end;;
+	cursor: pointer;
+	margin-right: 98px;
+    margin-left: 0px;
+
+    }
+	
+h2 {
+    font-size: 23px;
+}	
+.content p {
+    font-size: 10px;
+    
+}
+.item {
+        margin-top:56px;
+            
+        }
+	
+ .item img {
+            width: 176px;
+			height:227px;
+           
+        }
+        .text-content {
+            width:38%;
+			
+			
+        }
+       .text-content h3{
+		   font-size: 16px;
+		   }
+		.text-content p{
+		   margin:5px;
+		   }
+.Fourty_five0 {
+    padding:5px;
+}		   
+.Fourty_five{
+	width:100%;
+	
+	}		   
+		   
+	.image-container1 {
+        width: 100%;
+		margin-botton:5px;
+    
+}	
+
+
+.Fourty_five1_con {
+    border-left:none;
+  }   
+	
+	.logo1 {
+   	width: 100%;
+   text-align: center;
+   margin-left:70%;
+	
+	}
+	
+.testimonial-slider {
+    width: 87%;
+   
+}
+.testimonial-text {
+    font-size: 1em;
+    max-width:355px;
+}
+	
+.fromBorder{
+	width: 315px;
+		}
+		
+	.inputBox{
+		width:258px;
+		}	
+			
+	
+	
+	
+	
+		   
+		   
+	}
